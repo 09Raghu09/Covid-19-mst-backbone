@@ -1,2 +1,0 @@
-SyntaxError in line 145 of /media/windows-share/DSinLS20/week10/ncov_nextstrain/Snakefile:
-Command must be given as string after the shell keyword. (Snakefile, line 145)
