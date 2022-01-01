@@ -1,0 +1,2 @@
+SyntaxError in line 138 of /media/windows-share/DSinLS20/week10/ncov_nextstrain/Snakefile:
+Unexpected keyword tree in rule definition (Snakefile, line 138)

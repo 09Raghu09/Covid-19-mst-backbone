@@ -1,0 +1,108 @@
+Cluster0:
+ ['cattle', ' group', ' diarrhea', ' concentration', ' pneumonia', ' infection', ' strain', ' wean', ' risk', ' vaccine', ' igg', ' fat', ' brd', ' rotavirus', ' embryo', ' coronavirus', ' graze', ' clone', ' antimicrobial', ' pregnancy']
+
+
+Cluster1:
+ ['infant', ' influenza', ' increase', ' symptom', ' pneumonia', ' hmpv', ' sample', ' cell', ' vaccine', ' bacterial', ' cap', ' severe', ' transmission', ' illness', ' rsv', ' outbreak', ' contact', ' hbov', ' ev-d', ' assay']
+
+
+Cluster2:
+ ['isolate', ' group', ' bird', ' antibody', ' tcov', ' passage', ' lab', ' region', ' peptide', ' line', ' activity', ' aiv', ' assay', ' primer', ' cell', ' protein', ' sequence', ' infect', ' vaccine', ' gene']
+
+
+Cluster3:
+ ['rna', ' fusion', ' stat', ' pro', ' nsp', ' peptide', ' structure', ' protease', ' activation', ' envelope', ' interaction', ' assay', ' complex', ' min', ' codon', ' prrsv', ' sequence', ' residue', ' translation', ' disease']
+
+
+Cluster4:
+ ['estimate', ' transmission', ' day', ' quarantine', ' infectious', ' age', ' exposure', ' social', ' cell', ' city', ' network', ' farm', ' influenza', ' pandemic', ' capacity', ' dispersion', ' epidemic', ' fractional', ' infect', ' demand']
+
+
+Cluster5:
+ ['cell', ' virus', ' case', ' tourism', ' particle', ' air', ' activity', ' animal', ' pig', ' concentration', ' dog', ' protein', ' cause', ' disease', ' market', ' effect', ' test', ' infection', ' wind', ' day']
+
+
+Cluster6:
+ ['cell', ' sample', ' fee', ' codon', ' pcv', ' signal', ' usage', ' immune', ' value', ' fragment', ' litter', ' tgev', ' assay', ' receptor', ' datum', ' original', ' disease', ' s-indel', ' swine', ' antibody']
+
+
+Cluster7:
+ ['mouse', ' infection', ' neutralize', ' sequence', ' elisa', ' human', ' igg', ' iga', ' serum', ' plant', ' hla-a', ' fipv', ' mab', ' plasma', ' assay', ' epitope', ' datum', ' gene', ' database', ' leave']
+
+
+Cluster8:
+ ['international', ' population', ' risk', ' care', ' information', ' china', ' sars', ' study', ' government', ' human', ' policy', ' change', ' food', ' travel', ' quarantine', ' case', ' program', ' train', ' indicator', ' exercise']
+
+
+Cluster9:
+ ['test', ' patient', ' datum', ' season', ' year', ' vaccination', ' cell', ' viral', ' pneumonia', ' human', ' case', ' hand', ' avian', ' particle', ' process', ' treatment', ' country', ' resistance', ' pdm', ' week']
+
+
+Cluster10:
+ ['ferret', ' niv', ' animal', ' sign', ' clinical', ' respiratory', ' veterinary', ' horse', ' equine', ' hev', ' rna', ' assay', ' serotype', ' patient', ' cell', ' met', ' treatment', ' blood', ' sequence', ' protein']
+
+
+Cluster11:
+ ['rna', ' specimen', ' water', ' antibody', ' technique', ' diagnosis', ' denv', ' pure', ' hpv', ' magna', ' mrna', ' extraction', ' serotype', ' denv-', ' qpcr', ' spp', ' two-tube', ' giardia', ' uniplex', ' vibrio']
+
+
+Cluster12:
+ ['cell', ' antibody', ' covs', ' animal', ' rabies', ' host', ' dynamic', ' population', ' migration', ' migrant', ' guano', ' collect', ' area', ' record', ' retrovirus', ' new', ' high', ' coronavirus', ' cave', ' iii']
+
+
+Cluster13:
+ ['outbreak', ' host', ' species', ' cell', ' occur', ' diarrhea', ' bird', ' test', ' dog', ' infant', ' agent', ' sample', ' sign', ' skin', ' clinical', ' strain', ' mosquito', ' lesion', ' brain', ' mother']
+
+
+Cluster14:
+ ['drug', ' sars', ' target', ' patient', ' control', ' cov', ' sars-cov', ' peptide', ' pro', ' lung', ' case', ' time', ' unit', ' alveolar', ' nurse', ' membrane', ' depression', ' cell', ' disease', ' viral']
+
+
+Cluster15:
+ ['virus', ' pneumonia', ' group', ' treatment', ' cell', ' cause', ' exacerbation', ' copd', ' symptom', ' ards', ' il-', ' child', ' blood', ' transfusion', ' ventilation', ' muscle', ' platelet', ' dengue', ' myocarditis', ' live']
+
+
+Cluster16:
+ ['il-', ' expression', ' viral', ' cns', ' group', ' tlr', ' infect', ' signal', ' prrsv', ' microglia', ' demyelination', ' virus', ' chemokine', ' ccl', ' ccr', ' brain', ' nsp', ' rat', ' lesion', ' lymphocyte']
+
+
+Cluster17:
+ ['infection', ' health', ' care', ' use', ' china', ' cancer', ' study', ' protein', ' ventilation', ' spike', ' program', ' score', ' psychiatric', ' intubation', ' tracheostomy', ' hcws', ' bind', ' radiotherapy', ' hospital', ' search']
+
+
+Cluster18:
+ ['cell', ' blood', ' anemia', ' dose', ' treatment', ' phase', ' sign', ' lymphoma', ' antibody', ' dog', ' case', ' spinal', ' fecv', ' gene', ' fiv', ' animal', ' cord', ' peptide', ' protein', ' shelter']
+
+
+Cluster19:
+ ['protein', ' antigen', ' cell', ' product', ' animal', ' new', ' adjuvant', ' aluminum', ' participant', ' rat', ' gene', ' uptake', ' rpv', ' ewe', ' pprv', ' foetus', ' doe', ' cdv', ' dna', ' group']
+
+
+Cluster20:
+ ['codon', ' viral', ' sample', ' model', ' read', ' rna', ' virus', ' cell', ' structure', ' usage', ' bcov', ' transcript', ' dna', ' value', ' genetic', ' recombination', ' expression', ' synthetic', ' prediction', ' infection']
+
+
+Cluster21:
+ ['camel', ' disease', ' viral', ' pro', ' sars-cov', ' group', ' inhibitor', ' assay', ' sequence', ' response', ' specimen', ' vaccine', ' test', ' strain', ' emc', ' furin', ' hemodialysis', ' propose', ' datum', ' dialysis']
+
+
+Cluster22:
+ ['sirna', ' culture', ' antibody', ' receptor', ' infect', ' hcv', ' target', ' tumor', ' pathway', ' membrane', ' effect', ' epithelial', ' tissue', ' mir-', ' nsp', ' prrsv', ' tgev', ' autophagy', ' activity', ' mirnas']
+
+
+Cluster23:
+ ['ang', ' activity', ' effect', ' lung', ' infection', ' sars-cov', ' patient', ' chloride', ' ang-', ' antibody', ' control', ' acute', ' renal', ' bind', ' tace', ' residue', ' model', ' use', ' mouse', ' renin']
+
+
+Cluster24:
+ ['detection', ' disorder', ' mabs', ' plasmid', ' cord', ' flaviviruses', ' mouse', ' neuron', ' host', ' test', ' brain', ' country', ' vaccine', ' protein', ' infect', ' assay', ' rna', ' cell', ' chain', ' placental']
+
+
+Cluster25:
+ ['sars', ' case', ' health', ' nurse', ' infection', ' mask', ' risk', ' disease', ' hand', ' control', ' disaster', ' work', ' air', ' ppe', ' medical', ' plan', ' emergency', ' isolation', ' respirator', ' surgical']
+
+
+Cluster26:
+ ['cell', ' receptor', ' ester', ' derivative', ' model', ' structure', ' amide', ' virus', ' inhibitor', ' extract', ' acid', ' concentration', ' molecule', ' target', ' antiviral', ' qsar', ' ribavirin', ' molecular', ' assay', ' hbv']
+
+

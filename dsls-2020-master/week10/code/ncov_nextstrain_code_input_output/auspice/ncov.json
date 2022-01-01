@@ -1,0 +1,1183 @@
+{
+  "meta": {
+    "build_url": "https://github.com/nextstrain/ncov",
+    "colorings": [
+      {
+        "key": "clade_membership",
+        "title": "Clade",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "scale": [
+          [
+            "Thailand",
+            "#7AA8AD"
+          ],
+          [
+            "China:Hubei,Wuhan",
+            "#FF6E9A"
+          ],
+          [
+            "China:Zhejiang",
+            "#E25E2D"
+          ],
+          [
+            "Uruguay",
+            "#266712"
+          ],
+          [
+            "Tunisia",
+            "#A28FBA"
+          ],
+          [
+            "Italy",
+            "#03C1FF"
+          ],
+          [
+            "France",
+            "#899a67"
+          ],
+          [
+            "Germany",
+            "#304050"
+          ],
+          [
+            "Brazil",
+            "#0080FF"
+          ],
+          [
+            "Australia:Victoria",
+            "#532B23"
+          ],
+          [
+            "USA:NY",
+            "#9AEEC1"
+          ],
+          [
+            "USA:Washington,AdamsCounty",
+            "#941651"
+          ]
+        ],
+        "title": "Location",
+        "type": "categorical"
+      },
+      {
+        "key": "host",
+        "title": "Host",
+        "type": "categorical"
+      },
+      {
+        "key": "author",
+        "title": "Authors",
+        "type": "categorical"
+      },
+      {
+        "key": "release_date",
+        "title": "Submission Date",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "country",
+      "distance_measure": "num_date",
+      "geo_resolution": "country",
+      "map_triplicate": true
+    },
+    "filters": [
+      "release_date",
+      "country",
+      "host",
+      "author"
+    ],
+    "genome_annotations": {
+      "nuc": {
+        "end": 29864,
+        "seqid": "config/ncov_outgroup.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "geo_resolutions": [
+      {
+        "demes": {
+          "Australia:Victoria": {
+            "latitude": -37.0201,
+            "longitude": 144.9646
+          },
+          "Brazil": {
+            "latitude": -10.3333332,
+            "longitude": -53.1999999
+          },
+          "China:Hubei,Wuhan": {
+            "latitude": 30.583332,
+            "longitude": 114.283333
+          },
+          "China:Zhejiang": {
+            "latitude": 29.868336,
+            "longitude": 121.543991
+          },
+          "France": {
+            "latitude": 48.864716,
+            "longitude": 2.349014
+          },
+          "Germany": {
+            "latitude": 52.520008,
+            "longitude": 13.404954
+          },
+          "Italy": {
+            "latitude": 41.902782,
+            "longitude": 12.496366
+          },
+          "Thailand": {
+            "latitude": 14.8971921,
+            "longitude": 100.83273
+          },
+          "Tunisia": {
+            "latitude": 36.862499,
+            "longitude": 10.195556
+          },
+          "USA:NY": {
+            "latitude": 40.73061,
+            "longitude": -73.935242
+          },
+          "USA:Washington,AdamsCounty": {
+            "latitude": 38.888611,
+            "longitude": -77.004723
+          },
+          "Uruguay": {
+            "latitude": -32.522779,
+            "longitude": -56.164532
+          }
+        },
+        "key": "country"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "the Nextstrain team",
+        "url": "https://nextstrain.org/"
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ],
+    "title": "Genomic epidemiology of novel coronavirus",
+    "updated": "2020-06-29"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C20678T",
+                  "G29854C"
+                ]
+              }
+            },
+            "name": "MT259229/CHN/Wuhan_YB012602/2020-01-26",
+            "node_attrs": {
+              "author": {
+                "author": "Si,H., Zhu,Y., Lin,H., Xie,S., Shi,Z., Zhou,P.",
+                "value": "Si,H., Zhu,Y., Lin,H., Xie,S., Shi,Z., Zhou,P."
+              },
+              "clade_membership": {
+                "value": "unassigned"
+              },
+              "country": {
+                "confidence": {
+                  "China:Hubei,Wuhan": 1.0
+                },
+                "entropy": -1.000088900581841e-12,
+                "value": "China:Hubei,Wuhan"
+              },
+              "div": 6.697937633210347e-05,
+              "host": {
+                "value": "Homo sapiens"
+              },
+              "num_date": {
+                "confidence": [
+                  2020.0696721311476,
+                  2020.0696721311476
+                ],
+                "value": 2020.0696721311476
+              },
+              "release_date": {
+                "value": "2020-03-30T00:00:00Z"
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C2374T",
+                      "G11069T",
+                      "C14791T",
+                      "T17233C",
+                      "T21770A",
+                      "G26130T"
+                    ]
+                  }
+                },
+                "name": "MT350282/BRA/SP02cc/2020-03-18",
+                "node_attrs": {
+                  "author": {
+                    "author": "Malta,F., Amgarten,D., de Oliveira,D.B.L., Araujo,D.B., Machado,R.R.G., Santana,R.A.F., Mangueira,C.L.P., Durigon,E.L., Pinho,J.R.R.",
+                    "value": "Malta,F., Amgarten,D., de Oliveira,D.B.L., Araujo,D.B., Machado,R.R.G., Santana,R.A.F., Mangueira,C.L.P., Durigon,E.L., Pinho,J.R.R."
+                  },
+                  "clade_membership": {
+                    "value": "unassigned"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Brazil": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Brazil"
+                  },
+                  "div": 0.00020096011084904584,
+                  "host": {
+                    "value": "Homo sapiens"
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2020.2117486338798,
+                      2020.2117486338798
+                    ],
+                    "value": 2020.2117486338798
+                  },
+                  "release_date": {
+                    "value": "2020-04-17T00:00:00Z"
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "clade": "c3"
+                  },
+                  "mutations": {
+                    "nuc": [
+                      "C8768T",
+                      "T28130C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A881G",
+                          "C2928T",
+                          "G4376T",
+                          "C9584T",
+                          "G20120T",
+                          "G24033A",
+                          "G27863T"
+                        ]
+                      }
+                    },
+                    "name": "MT447176/THA/SI206917-NT/2020-03-20",
+                    "node_attrs": {
+                      "author": {
+                        "author": "Rodpan,A., Joyjinda,Y., Wacharapluesadee,S., Buathong,R., Ghai,S., Petcharat,S., Bunprakob,S., Sirichan,N., Prasithsirikul,W., Mungaomklang,A., Plipat,T., Hemachudha,T.",
+                        "value": "Rodpan,A., Joyjinda,Y., Wacharapluesadee,S., Buathong,R., Ghai,S., Petcharat,S., Bunprakob,S., Sirichan,N., Prasithsirikul,W., Mungaomklang,A., Plipat,T., Hemachudha,T."
+                      },
+                      "clade_membership": {
+                        "value": "c3"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Thailand": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Thailand"
+                      },
+                      "div": 0.0003014369003779892,
+                      "host": {
+                        "value": "Homo sapiens"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2020.217213114754,
+                          2020.217213114754
+                        ],
+                        "value": 2020.217213114754
+                      },
+                      "release_date": {
+                        "value": "2020-05-08T00:00:00Z"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C17456T",
+                              "C26074T"
+                            ]
+                          }
+                        },
+                        "name": "MT466071/URY/Mdeo-1/2020-03-13",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Panzera,Y., Delfraro,A., Ramos,N., Frabasile,S., Calleros,L., Techera,C., Grecco,S., Fuques,E., Goni,N., Coppola,L., Ramos,V., Chiparelli,H., Arbiza,J., Perez,R.",
+                            "value": "Panzera,Y., Delfraro,A., Ramos,N., Frabasile,S., Calleros,L., Techera,C., Grecco,S., Fuques,E., Goni,N., Coppola,L., Ramos,V., Chiparelli,H., Arbiza,J., Perez,R."
+                          },
+                          "clade_membership": {
+                            "value": "c3"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Uruguay": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Uruguay"
+                          },
+                          "div": 0.0001339537498150573,
+                          "host": {
+                            "value": "Homo sapiens"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2020.198087431694,
+                              2020.198087431694
+                            ],
+                            "value": 2020.198087431694
+                          },
+                          "release_date": {
+                            "value": "2020-05-14T00:00:00Z"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G11069T",
+                              "C17733T",
+                              "A17844G",
+                              "C18046T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "MT632947/USA/WA-S542/2020-03-23",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Nickerson,D.A., Frazar,C.D., Lee,J., Pelle,B., Richardson,M., Adler,A., Brandstetter,E., Han,P.D., Fay,K., Ilcisin,M., Lacombe,K., Sibley,T.R., Truong,M., Wolf,C.R., Gautom,R., Melly,G., Hiatt,B., Dykema,P., Lindquist,S., Boeckh,M., Englund,J.A., Famulare,M., Lutz,B.R., Rieder,M.J., Starita,L.M., Thompson,M., Chu,H.Y., Shendure,J., Bedford,T.",
+                                "value": "Nickerson,D.A., Frazar,C.D., Lee,J., Pelle,B., Richardson,M., Adler,A., Brandstetter,E., Han,P.D., Fay,K., Ilcisin,M., Lacombe,K., Sibley,T.R., Truong,M., Wolf,C.R., Gautom,R., Melly,G., Hiatt,B., Dykema,P., Lindquist,S., Boeckh,M., Englund,J.A., Famulare,M., Lutz,B.R., Rieder,M.J., Starita,L.M., Thompson,M., Chu,H.Y., Shendure,J., Bedford,T."
+                              },
+                              "clade_membership": {
+                                "value": "c3"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "USA:Washington,AdamsCounty": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "USA:Washington,AdamsCounty"
+                              },
+                              "div": 0.00020093678482126717,
+                              "host": {
+                                "value": "Homo sapiens"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2020.2254098360656,
+                                  2020.2254098360656
+                                ],
+                                "value": 2020.2254098360656
+                              },
+                              "release_date": {
+                                "value": "2020-06-17T00:00:00Z"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "MT633004/USA/WA-S546/2020-03-23",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Nickerson,D.A., Frazar,C.D., Lee,J., Pelle,B., Richardson,M., Adler,A., Brandstetter,E., Han,P.D., Fay,K., Ilcisin,M., Lacombe,K., Sibley,T.R., Truong,M., Wolf,C.R., Gautom,R., Melly,G., Hiatt,B., Dykema,P., Lindquist,S., Boeckh,M., Englund,J.A., Famulare,M., Lutz,B.R., Rieder,M.J., Starita,L.M., Thompson,M., Chu,H.Y., Shendure,J., Bedford,T.",
+                                "value": "Nickerson,D.A., Frazar,C.D., Lee,J., Pelle,B., Richardson,M., Adler,A., Brandstetter,E., Han,P.D., Fay,K., Ilcisin,M., Lacombe,K., Sibley,T.R., Truong,M., Wolf,C.R., Gautom,R., Melly,G., Hiatt,B., Dykema,P., Lindquist,S., Boeckh,M., Englund,J.A., Famulare,M., Lutz,B.R., Rieder,M.J., Starita,L.M., Thompson,M., Chu,H.Y., Shendure,J., Bedford,T."
+                              },
+                              "clade_membership": {
+                                "value": "c3"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "USA:Washington,AdamsCounty": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "USA:Washington,AdamsCounty"
+                              },
+                              "div": 0.00020093678482126717,
+                              "host": {
+                                "value": "Homo sapiens"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2020.2254098360656,
+                                  2020.2254098360656
+                                ],
+                                "value": 2020.2254098360656
+                              },
+                              "release_date": {
+                                "value": "2020-06-17T00:00:00Z"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000005",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "c3"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Brazil": 0.0024712153602223365,
+                              "Thailand": 0.005168779522744896,
+                              "USA:Washington,AdamsCounty": 0.9684344897433347,
+                              "Uruguay": 0.01428936525639934
+                            },
+                            "entropy": 0.19845491767389856,
+                            "value": "USA:Washington,AdamsCounty"
+                          },
+                          "div": 0.00020093678482125538,
+                          "num_date": {
+                            "confidence": [
+                              2020.2002791279676,
+                              2020.2254098360656
+                            ],
+                            "value": 2020.2254098360656
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "c3"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Brazil": 0.05108738653958311,
+                          "Thailand": 0.1292893677062558,
+                          "USA:Washington,AdamsCounty": 0.33985591906348706,
+                          "Uruguay": 0.37105567464061584
+                        },
+                        "entropy": 1.6119169659883545,
+                        "value": "Uruguay"
+                      },
+                      "div": 6.697638085396476e-05,
+                      "num_date": {
+                        "confidence": [
+                          2018.4722480036671,
+                          2020.198087431694
+                        ],
+                        "value": 2020.1509219116986
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "c3"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Brazil": 0.15381783478848565,
+                      "Thailand": 0.42064907731287465,
+                      "USA:Washington,AdamsCounty": 0.1207372180007499,
+                      "Uruguay": 0.13443152094659896
+                    },
+                    "entropy": 1.7940427302656616,
+                    "value": "Thailand"
+                  },
+                  "div": 6.697638085396476e-05,
+                  "num_date": {
+                    "confidence": [
+                      2018.4723861547343,
+                      2020.1946113326842
+                    ],
+                    "value": 2020.1244763835896
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "unassigned"
+              },
+              "country": {
+                "confidence": {
+                  "Brazil": 0.4382841044597466,
+                  "China:Hubei,Wuhan": 0.17126907479042378,
+                  "Thailand": 0.1531666294357294,
+                  "Uruguay": 0.054386809124902916
+                },
+                "entropy": 1.7769158170431734,
+                "value": "Brazil"
+              },
+              "div": 3.2101129913176065e-22,
+              "num_date": {
+                "confidence": [
+                  2017.7917594186495,
+                  2020.167348560767
+                ],
+                "value": 2020.0681168723595
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "unassigned"
+          },
+          "country": {
+            "confidence": {
+              "Brazil": 0.17403910099812558,
+              "China:Hubei,Wuhan": 0.47607747387495036,
+              "France": 0.08962917319727692,
+              "Thailand": 0.06693008253335475
+            },
+            "entropy": 1.767423760094959,
+            "value": "China:Hubei,Wuhan"
+          },
+          "div": 1.6050564956588032e-22,
+          "num_date": {
+            "confidence": [
+              2017.8048066269787,
+              2020.0696721311476
+            ],
+            "value": 2020.0551091001237
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "clade": "c1"
+          },
+          "mutations": {
+            "nuc": [
+              "C3023T",
+              "C14394T",
+              "A23389G"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A10067T",
+                  "C22267T"
+                ]
+              }
+            },
+            "name": "MT470177/France/10070SK/2020-03-15",
+            "node_attrs": {
+              "author": {
+                "author": "De Prost,N., Fourati,S., Lamoureux,C., Schmitz,D., Deveaux,I., Picard,O., Lepeule,R., Surgers,L., Mekontso-Dessap,A., Woerther,P.-L., Canoui-Poitrine,F., Pawlotsky,J.-M., Clinical Study Group,C., Rodrigue,C., Gricourt,G., N'debi,M., Demontant,V., Trawinski,E.",
+                "value": "De Prost,N., Fourati,S., Lamoureux,C., Schmitz,D., Deveaux,I., Picard,O., Lepeule,R., Surgers,L., Mekontso-Dessap,A., Woerther,P.-L., Canoui-Poitrine,F., Pawlotsky,J.-M., Clinical Study Group,C., Rodrigue,C., Gricourt,G., N'debi,M., Demontant,V., Trawinski,E."
+              },
+              "clade_membership": {
+                "value": "c1"
+              },
+              "country": {
+                "confidence": {
+                  "France": 1.0
+                },
+                "entropy": -1.000088900581841e-12,
+                "value": "France"
+              },
+              "div": 0.00016744672240807148,
+              "host": {
+                "value": "Homo sapiens"
+              },
+              "num_date": {
+                "confidence": [
+                  2020.2035519125684,
+                  2020.2035519125684
+                ],
+                "value": 2020.2035519125684
+              },
+              "release_date": {
+                "value": "2020-05-14T00:00:00Z"
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "clade": "c2"
+              },
+              "mutations": {
+                "nuc": [
+                  "C227T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T7424C",
+                      "A26850G",
+                      "C29339T"
+                    ]
+                  }
+                },
+                "name": "MT451640/AUS/VIC938/2020-03-25",
+                "node_attrs": {
+                  "author": {
+                    "author": "Seemann,T., Lane,C.R., Sherry,N.L., Duchene,S., Goncalves da Silva,A., Caly,L., Sait,M., Ballard,S.A., Horan,K., Schultz,M.B., Hoang,T., Easton,M., Dougal,S., Stinear,T.P., Druce,J., Catton,M., Sutton,B., van Diemen,A., Alpren,C., Williamson,D.A., Howden,B.P.",
+                    "value": "Seemann,T., Lane,C.R., Sherry,N.L., Duchene,S., Goncalves da Silva,A., Caly,L., Sait,M., Ballard,S.A., Horan,K., Schultz,M.B., Hoang,T., Easton,M., Dougal,S., Stinear,T.P., Druce,J., Catton,M., Sutton,B., van Diemen,A., Alpren,C., Williamson,D.A., Howden,B.P."
+                  },
+                  "clade_membership": {
+                    "value": "c2"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Australia:Victoria": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Australia:Victoria"
+                  },
+                  "div": 0.00023443844325968455,
+                  "host": {
+                    "value": "Homo sapiens"
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2020.23087431694,
+                      2020.23087431694
+                    ],
+                    "value": 2020.23087431694
+                  },
+                  "release_date": {
+                    "value": "2020-05-11T00:00:00Z"
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "clade": "c4"
+                  },
+                  "mutations": {
+                    "nuc": [
+                      "G28867A",
+                      "G28868A",
+                      "G28869C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "MT358639/DEU/FFM3/2020-02-20",
+                    "node_attrs": {
+                      "author": {
+                        "author": "Toptan,T., Hoehl,S., Berger,A., Rotter,B., Hoffmeier,K., Westhaus,S., Bojkova,D., Ciesek,S., Widera,M.",
+                        "value": "Toptan,T., Hoehl,S., Berger,A., Rotter,B., Hoffmeier,K., Westhaus,S., Bojkova,D., Ciesek,S., Widera,M."
+                      },
+                      "clade_membership": {
+                        "value": "c4"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Germany": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Germany"
+                      },
+                      "div": 0.0002344310121697928,
+                      "host": {
+                        "value": "Homo sapiens"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2020.1379781420765,
+                          2020.1379781420765
+                        ],
+                        "value": 2020.1379781420765
+                      },
+                      "release_date": {
+                        "value": "2020-05-14T00:00:00Z"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T19825C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "MT531537/ITA/Siena-1/2020-03-01",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Cusi,M.G., Pinzauti,D., Gandolfo,C., Anichini,G., Pozzi,G., Santoro,F.",
+                            "value": "Cusi,M.G., Pinzauti,D., Gandolfo,C., Anichini,G., Pozzi,G., Santoro,F."
+                          },
+                          "clade_membership": {
+                            "value": "c4"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Italy": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Italy"
+                          },
+                          "div": 0.0002679196784626145,
+                          "host": {
+                            "value": "Homo sapiens"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2020.1653005464482,
+                              2020.1653005464482
+                            ],
+                            "value": 2020.1653005464482
+                          },
+                          "release_date": {
+                            "value": "2020-05-28T00:00:00Z"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C29856T",
+                              "A29857G"
+                            ]
+                          }
+                        },
+                        "name": "MT407659/CHN/OS4/2020-03-24",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Gao,Q., Bao,L., Mao,H., Wang,L., Xu,K., Yang,M., Li,Y., Zhu,L., Wang,N., Lv,Z., Gao,H., Ge,X., Kan,B., Hu,Y., Liu,J., Cai,F., Jiang,D., Yin,Y., Qin,C., Li,J., Gong,X., Lou,X., Shi,W., Wu,D., Zhang,H., Deng,W., Lu,J., Li,C., Wang,X., Yin,W., Zhang,Y., Sun,Y.",
+                            "value": "Gao,Q., Bao,L., Mao,H., Wang,L., Xu,K., Yang,M., Li,Y., Zhu,L., Wang,N., Lv,Z., Gao,H., Ge,X., Kan,B., Hu,Y., Liu,J., Cai,F., Jiang,D., Yin,Y., Qin,C., Li,J., Gong,X., Lou,X., Shi,W., Wu,D., Zhang,H., Deng,W., Lu,J., Li,C., Wang,X., Yin,W., Zhang,Y., Sun,Y."
+                          },
+                          "clade_membership": {
+                            "value": "c4"
+                          },
+                          "country": {
+                            "confidence": {
+                              "China:Zhejiang": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "China:Zhejiang"
+                          },
+                          "div": 0.0003349005925953228,
+                          "host": {
+                            "value": "Homo sapiens"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2020.2281420765028,
+                              2020.2281420765028
+                            ],
+                            "value": 2020.2281420765028
+                          },
+                          "release_date": {
+                            "value": "2020-05-29T00:00:00Z"
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000009",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "c4"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Australia:Victoria": 0.04026153543117378,
+                          "China:Zhejiang": 0.3668537148141201,
+                          "Germany": 0.11586466566956447,
+                          "Italy": 0.3668537148141245
+                        },
+                        "entropy": 1.5822070120829148,
+                        "value": "Italy"
+                      },
+                      "div": 0.0002679196784626027,
+                      "num_date": {
+                        "confidence": [
+                          2020.1474178767355,
+                          2020.1653005464482
+                        ],
+                        "value": 2020.1653005464482
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000008",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "c4"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Australia:Victoria": 0.12709454485680008,
+                      "China:Zhejiang": 0.12929965025756593,
+                      "Germany": 0.40282369462661705,
+                      "Italy": 0.12929965025756818
+                    },
+                    "entropy": 1.8906623911755882,
+                    "value": "Germany"
+                  },
+                  "div": 0.000234431012169781,
+                  "num_date": {
+                    "confidence": [
+                      2020.128604989935,
+                      2020.1379781420765
+                    ],
+                    "value": 2020.1379781420765
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "clade": "c5"
+                  },
+                  "mutations": {
+                    "nuc": [
+                      "C1045T",
+                      "G25549T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T3C",
+                          "T1652C",
+                          "G28332T",
+                          "G28333T",
+                          "T29797C",
+                          "A29799G",
+                          "T29803G",
+                          "T29808C",
+                          "A29810C"
+                        ]
+                      }
+                    },
+                    "name": "MT499220/TUN/COV1482/2020-03-31",
+                    "node_attrs": {
+                      "author": {
+                        "author": "Fares,W., Triki,H.",
+                        "value": "Fares,W., Triki,H."
+                      },
+                      "clade_membership": {
+                        "value": "c5"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Tunisia": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Tunisia"
+                      },
+                      "div": 0.000502415408531132,
+                      "host": {
+                        "value": "Homo sapiens"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2020.2472677595629,
+                          2020.2472677595629
+                        ],
+                        "value": 2020.2472677595629
+                      },
+                      "release_date": {
+                        "value": "2020-06-08T00:00:00Z"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C11902T",
+                          "C18984T",
+                          "G29526A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C10001T",
+                              "C18730T"
+                            ]
+                          }
+                        },
+                        "name": "MT434808/USA/NY-CDC-SURV0982NYC/2020-03-19",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Tao,Y., Queen,K., Harrison,C., Rakeman,J., Paden,C.R., Zhang,J., Uehara,A., Li,Y., Wang,H., Padilla,J., Lee,J., Bankamp,B., Weiner,Z., Tong,S.",
+                            "value": "Tao,Y., Queen,K., Harrison,C., Rakeman,J., Paden,C.R., Zhang,J., Uehara,A., Li,Y., Wang,H., Padilla,J., Lee,J., Bankamp,B., Weiner,Z., Tong,S."
+                          },
+                          "clade_membership": {
+                            "value": "c5"
+                          },
+                          "country": {
+                            "confidence": {
+                              "USA:NY": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "USA:NY"
+                          },
+                          "div": 0.0003683907542160775,
+                          "host": {
+                            "value": "Homo sapiens"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2020.214480874317,
+                              2020.214480874317
+                            ],
+                            "value": 2020.214480874317
+                          },
+                          "release_date": {
+                            "value": "2020-05-06T00:00:00Z"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T3023C",
+                              "C4099T"
+                            ]
+                          }
+                        },
+                        "name": "MT434809/USA/NY-CDC-SURV0983NYC/2020-03-19",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Tao,Y., Queen,K., Harrison,C., Rakeman,J., Paden,C.R., Zhang,J., Uehara,A., Li,Y., Wang,H., Padilla,J., Lee,J., Bankamp,B., Weiner,Z., Tong,S.",
+                            "value": "Tao,Y., Queen,K., Harrison,C., Rakeman,J., Paden,C.R., Zhang,J., Uehara,A., Li,Y., Wang,H., Padilla,J., Lee,J., Bankamp,B., Weiner,Z., Tong,S."
+                          },
+                          "clade_membership": {
+                            "value": "c5"
+                          },
+                          "country": {
+                            "confidence": {
+                              "USA:NY": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "USA:NY"
+                          },
+                          "div": 0.00036838973643592916,
+                          "host": {
+                            "value": "Homo sapiens"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2020.214480874317,
+                              2020.214480874317
+                            ],
+                            "value": 2020.214480874317
+                          },
+                          "release_date": {
+                            "value": "2020-05-06T00:00:00Z"
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000012",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "c5"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Australia:Victoria": 0.00463707203106209,
+                          "France": 0.002368894683104121,
+                          "Tunisia": 0.014002104891715564,
+                          "USA:NY": 0.9679901291241042
+                        },
+                        "entropy": 0.20269935886074264,
+                        "value": "USA:NY"
+                      },
+                      "div": 0.00030140766906309145,
+                      "num_date": {
+                        "confidence": [
+                          2020.0787575077602,
+                          2020.2058115026246
+                        ],
+                        "value": 2020.1872065992131
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000011",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "c5"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Australia:Victoria": 0.11284009305443819,
+                      "France": 0.04683831944679713,
+                      "Tunisia": 0.3617497254982146,
+                      "USA:NY": 0.33223428391864473
+                    },
+                    "entropy": 1.6919530792262343,
+                    "value": "Tunisia"
+                  },
+                  "div": 0.0002009345822647596,
+                  "num_date": {
+                    "confidence": [
+                      2018.984679986359,
+                      2020.1738511463498
+                    ],
+                    "value": 2020.1387060043905
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000007",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "c2"
+              },
+              "country": {
+                "confidence": {
+                  "Australia:Victoria": 0.36340602065363276,
+                  "France": 0.13614031250295394,
+                  "Germany": 0.1207812999005225,
+                  "Tunisia": 0.11078203738831174
+                },
+                "entropy": 1.9745775380967645,
+                "value": "Australia:Victoria"
+              },
+              "div": 0.00013395561391104133,
+              "num_date": {
+                "confidence": [
+                  2018.706535903887,
+                  2020.1335458225774
+                ],
+                "value": 2020.1239314450136
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000006",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "c1"
+          },
+          "country": {
+            "confidence": {
+              "Australia:Victoria": 0.14640936914790623,
+              "China:Hubei,Wuhan": 0.09191278517011114,
+              "France": 0.4569849629660762,
+              "Germany": 0.055533440429390436
+            },
+            "entropy": 1.863293538655714,
+            "value": "France"
+          },
+          "div": 0.00010046756654918243,
+          "num_date": {
+            "confidence": [
+              2018.5020723573048,
+              2020.1280833368473
+            ],
+            "value": 2020.1209317651658
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "clade_membership": {
+        "value": "unassigned"
+      },
+      "country": {
+        "confidence": {
+          "Australia:Victoria": 0.09099536410195606,
+          "Brazil": 0.10437888501125606,
+          "China:Hubei,Wuhan": 0.2582515452897099,
+          "France": 0.24822478377398446
+        },
+        "entropy": 2.124051383086507,
+        "value": "China:Hubei,Wuhan"
+      },
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          2017.8042552202787,
+          2020.067042522856
+        ],
+        "value": 2020.0504140446344
+      }
+    }
+  },
+  "version": "v2"
+}

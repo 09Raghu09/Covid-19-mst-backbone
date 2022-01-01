@@ -1,0 +1,91 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "8.0.0"
+  },
+  "nodes": {
+    "MT259229/CHN/Wuhan_YB012602/2020-01-26": {
+      "clade_membership": "unassigned"
+    },
+    "MT350282/BRA/SP02cc/2020-03-18": {
+      "clade_membership": "unassigned"
+    },
+    "MT358639/DEU/FFM3/2020-02-20": {
+      "clade_membership": "c4"
+    },
+    "MT407659/CHN/OS4/2020-03-24": {
+      "clade_membership": "c4"
+    },
+    "MT434808/USA/NY-CDC-SURV0982NYC/2020-03-19": {
+      "clade_membership": "c5"
+    },
+    "MT434809/USA/NY-CDC-SURV0983NYC/2020-03-19": {
+      "clade_membership": "c5"
+    },
+    "MT447176/THA/SI206917-NT/2020-03-20": {
+      "clade_membership": "c3"
+    },
+    "MT451640/AUS/VIC938/2020-03-25": {
+      "clade_membership": "c2"
+    },
+    "MT466071/URY/Mdeo-1/2020-03-13": {
+      "clade_membership": "c3"
+    },
+    "MT470177/France/10070SK/2020-03-15": {
+      "clade_membership": "c1"
+    },
+    "MT499220/TUN/COV1482/2020-03-31": {
+      "clade_membership": "c5"
+    },
+    "MT531537/ITA/Siena-1/2020-03-01": {
+      "clade_membership": "c4"
+    },
+    "MT632947/USA/WA-S542/2020-03-23": {
+      "clade_membership": "c3"
+    },
+    "MT633004/USA/WA-S546/2020-03-23": {
+      "clade_membership": "c3"
+    },
+    "NODE_0000000": {
+      "clade_membership": "unassigned"
+    },
+    "NODE_0000001": {
+      "clade_membership": "unassigned"
+    },
+    "NODE_0000002": {
+      "clade_membership": "unassigned"
+    },
+    "NODE_0000003": {
+      "clade_annotation": "c3",
+      "clade_membership": "c3"
+    },
+    "NODE_0000004": {
+      "clade_membership": "c3"
+    },
+    "NODE_0000005": {
+      "clade_membership": "c3"
+    },
+    "NODE_0000006": {
+      "clade_annotation": "c1",
+      "clade_membership": "c1"
+    },
+    "NODE_0000007": {
+      "clade_annotation": "c2",
+      "clade_membership": "c2"
+    },
+    "NODE_0000008": {
+      "clade_annotation": "c4",
+      "clade_membership": "c4"
+    },
+    "NODE_0000009": {
+      "clade_membership": "c4"
+    },
+    "NODE_0000011": {
+      "clade_annotation": "c5",
+      "clade_membership": "c5"
+    },
+    "NODE_0000012": {
+      "clade_membership": "c5"
+    }
+  }
+}

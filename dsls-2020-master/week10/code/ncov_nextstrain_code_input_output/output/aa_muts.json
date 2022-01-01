@@ -1,0 +1,97 @@
+{
+  "annotations": {
+    "nuc": {
+      "end": 29864,
+      "seqid": "config/ncov_outgroup.gb",
+      "start": 1,
+      "strand": "+",
+      "type": "source"
+    }
+  },
+  "generated_by": {
+    "program": "augur",
+    "version": "8.0.0"
+  },
+  "nodes": {
+    "MT259229/CHN/Wuhan_YB012602/2020-01-26": {
+      "aa_muts": {}
+    },
+    "MT350282/BRA/SP02cc/2020-03-18": {
+      "aa_muts": {}
+    },
+    "MT358639/DEU/FFM3/2020-02-20": {
+      "aa_muts": {}
+    },
+    "MT407659/CHN/OS4/2020-03-24": {
+      "aa_muts": {}
+    },
+    "MT434808/USA/NY-CDC-SURV0982NYC/2020-03-19": {
+      "aa_muts": {}
+    },
+    "MT434809/USA/NY-CDC-SURV0983NYC/2020-03-19": {
+      "aa_muts": {}
+    },
+    "MT447176/THA/SI206917-NT/2020-03-20": {
+      "aa_muts": {}
+    },
+    "MT451640/AUS/VIC938/2020-03-25": {
+      "aa_muts": {}
+    },
+    "MT466071/URY/Mdeo-1/2020-03-13": {
+      "aa_muts": {}
+    },
+    "MT470177/France/10070SK/2020-03-15": {
+      "aa_muts": {}
+    },
+    "MT499220/TUN/COV1482/2020-03-31": {
+      "aa_muts": {}
+    },
+    "MT531537/ITA/Siena-1/2020-03-01": {
+      "aa_muts": {}
+    },
+    "MT632947/USA/WA-S542/2020-03-23": {
+      "aa_muts": {}
+    },
+    "MT633004/USA/WA-S546/2020-03-23": {
+      "aa_muts": {}
+    },
+    "NODE_0000000": {
+      "aa_muts": {},
+      "aa_sequences": {}
+    },
+    "NODE_0000001": {
+      "aa_muts": {}
+    },
+    "NODE_0000002": {
+      "aa_muts": {}
+    },
+    "NODE_0000003": {
+      "aa_muts": {}
+    },
+    "NODE_0000004": {
+      "aa_muts": {}
+    },
+    "NODE_0000005": {
+      "aa_muts": {}
+    },
+    "NODE_0000006": {
+      "aa_muts": {}
+    },
+    "NODE_0000007": {
+      "aa_muts": {}
+    },
+    "NODE_0000008": {
+      "aa_muts": {}
+    },
+    "NODE_0000009": {
+      "aa_muts": {}
+    },
+    "NODE_0000011": {
+      "aa_muts": {}
+    },
+    "NODE_0000012": {
+      "aa_muts": {}
+    }
+  },
+  "reference": {}
+}
